@@ -1,7 +1,12 @@
-function App() {
+import {Post} from "./Post"
+
+export function App() {
   return (
-    <h1>Hello Ignite!</h1>
+    <div>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </div>
   )
 }
-
-export default App
