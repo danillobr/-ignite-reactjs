@@ -25,5 +25,5 @@
 ## Índice
 
 ### Projeto I
- - [Fundamentos do ReactJS]: <> (01-fundamentos-reactjs/)
+ - [Fundamentos do ReactJS](01-fundamentos-reactjs/)
  - [Ignite Feed]: <> (https://github.com/lfnd0/feed)
