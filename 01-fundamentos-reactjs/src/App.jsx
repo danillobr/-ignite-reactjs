@@ -15,10 +15,8 @@ export function App() {
       <div className={styles.wrapper}> 
         <Sidebar />
         <main>   
-          <Post
-            author= "Danillo Rodrigues" 
-            content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laudantium esse nesciunt nemo fugiat asperiores ullam earum atque magnam explicabo, odit deleniti repudiandae quidem expedita eveniet, a eum. Exercitationem, optio."
-          />
+          <Post />
+          <Post />
         </main>
       </div>     
     </div>
