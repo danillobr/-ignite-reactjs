@@ -7,7 +7,7 @@ export function Comment(){
             <img 
                 src="https://i1.sndcdn.com/artworks-2HUFT0g70vKshPTQ-akDLSw-t500x500.jpg"
             />
-            <div className={styles.CommentBox}>
+            <div className={styles.commentBox}>
                 <div className={styles.commentContent}>
                     <header>
                         <div className={styles.authorAndTime}>
@@ -16,7 +16,7 @@ export function Comment(){
                         </div>
 
                         <button title="Deletar comentário">
-                            <Trash size={20} />
+                            <Trash size={24} />
                         </button>
 
                     </header>
