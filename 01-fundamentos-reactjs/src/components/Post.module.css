@@ -45,20 +45,6 @@
     gap: 1rem;
 }
 
-.avatar{
-    /* 
-        Também poderia usar o (box-sizing: initial;)
-        ao invés de calcular o tamanho que as bordas acrescentaram
-    */
-
-    width: calc(3rem + 12px);
-    height: calc(3rem + 12px);
-    background: var(--gray-800);
-    border-radius: 8px; 
-    border: 4px solid var(--gray-800);
-    outline: 2px solid var(--green-500);  
-}
-
 .authorInfo strong{
     display: block;
     color: var(--gray-100);

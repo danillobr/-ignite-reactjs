@@ -1,4 +1,5 @@
 import { PencilLine } from 'phosphor-react';
+import { Avatar } from './Avatar';
 
 import styles from './Sidebar.module.css';
 
@@ -12,11 +13,10 @@ export function Sidebar(){
         
             <div className={styles.profile}>
 
-                <img
-                    className={styles.avatar} 
-                    src = "https://www.shutterstock.com/image-vector/one-piece-character-luffy-nika-260nw-2210725005.jpg"
-                
-                />            
+                <Avatar
+                    src="https://www.shutterstock.com/image-vector/one-piece-character-luffy-nika-260nw-2210725005.jpg"
+                />
+                           
                 <strong>Nika o Deus do Sol</strong>
                 <span>Pirata</span>
             </div>
