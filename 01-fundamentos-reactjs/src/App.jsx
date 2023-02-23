@@ -34,7 +34,7 @@ const posts = [
       // <a href="#"> #nlw </a>
       // <a href="#"> #rocketseat </a>             
     ],
-    publishedAt: new Data('2022-13-02 23:57:39')
+    publishedAt: new Date('2022-13-02 23:57:39')
   },
 
   {
@@ -64,7 +64,7 @@ const posts = [
       // <a href="#"> #nlw </a>
       // <a href="#"> #rocketseat </a>             
     ],
-    publishedAt: new Data('2022-16-02 11:54:22')
+    publishedAt: new Date('2022-16-02 11:54:22')
   }
 ]
 
@@ -76,7 +76,15 @@ export function App() {
       <div className={styles.wrapper}> 
         <Sidebar />
         <main>   
-          {posts}
+          {posts.map(post => {
+            return (
+              <Post 
+                author={post.author}
+                content={post.content}
+                publishedAt={post.publishedAt}
+              />
+            )
+          })}
         </main>
       </div>     
     </div>
