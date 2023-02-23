@@ -17,24 +17,24 @@ const posts = [
     content: [
       {
         type: 'paragraph',
-        context: 'Fala galeraa 👋'
+        content: 'Fala galeraa 👋'
       },
 
       {
         type: 'paragraph',
-        context: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'
+        content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'
       },
 
       {
         type: 'link',
-        context: '👉 jane.design/doctorcare'
+        content: '👉 jane.design/doctorcare'
       }
         
       // <a href="#"> #novoprojeto </a>
       // <a href="#"> #nlw </a>
       // <a href="#"> #rocketseat </a>             
     ],
-    publishedAt: new Date('2022-13-02 23:57:39')
+    publishedAt: new Date('2023-02-13 23:57:39'),
   },
 
   {
@@ -47,24 +47,24 @@ const posts = [
     content: [
       {
         type: 'paragraph',
-        context: 'Fala galeraa 👋'
+        content: 'Fala galeraa 👋'
       },
 
       {
         type: 'paragraph',
-        context: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'
+        content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'
       },
 
       {
         type: 'link',
-        context: '👉 jane.design/doctorcare'
+        content: '👉 jane.design/doctorcare'
       }
         
       // <a href="#"> #novoprojeto </a>
       // <a href="#"> #nlw </a>
       // <a href="#"> #rocketseat </a>             
     ],
-    publishedAt: new Date('2022-16-02 11:54:22')
+    publishedAt: new Date('2023-02-16 11:54:22'),
   }
 ]
 
