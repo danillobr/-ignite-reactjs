@@ -39,13 +39,13 @@ no strong e no time
 
 .authorAndTime strong{
     display: block; 
-    font-size: 0.875;
+    font-size: 0.875rem;
     line-height: 1.6;
 }
 
 .authorAndTime time{
     display: block;
-    font-size: 0.75;
+    font-size: 0.75rem;
     line-height: 1.6;
     color: var(--gray-400);
 }
@@ -61,6 +61,11 @@ no strong e no time
 
 .commentContent header button:hover{
     color: var(--red-500);
+}
+
+.commentContent p{
+    margin-top: 1rem;
+    color: var(--gray-300);
 }
 
 .commentBox footer{
@@ -80,7 +85,7 @@ no strong e no time
 
 .commentBox footer button:hover{
     color: var(--green-300);
-}
+} 
 
 .commentBox footer button svg{
     margin-right: 0.5rem;

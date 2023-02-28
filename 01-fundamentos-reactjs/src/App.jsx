@@ -40,7 +40,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://lh3.googleusercontent.com/Q3E9kTWwLlA4m-49ph6Vmz157mfnGUHIgUg1hicUuZQu7mUzclYag0G55DVAPKvGxXCcknerA4_Xv468rfZLQVgnKuMIy_p-sp16wwU',
+      avatarUrl: 'https://media.cdnws.com//_i/136023/p%7B1000%7D-54071/47/71/10-choses-savoir-usopp-boutique-one-piece-1.jpeg',
       name: 'Usopp',
       role: 'Pirata'
     },
