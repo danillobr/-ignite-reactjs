@@ -27,4 +27,4 @@
 ### Projeto I
  - [Fundamentos do ReactJS](01-fundamentos-reactjs/)
  - [Fundamentos do ReactJS com TypeScript](01-fundamentos-reactjs-ts/)
- - [02-ignite-timer](02-ignite-timer/)
+ - [Criando SPAs com ReactJS](02-ignite-timer/)
