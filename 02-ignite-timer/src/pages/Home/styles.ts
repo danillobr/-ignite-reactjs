@@ -16,7 +16,7 @@ export const HomeContainer = styled.main`
   }
 `
 
-export const BaseCountDownButton = styled.button`
+export const BaseCountdownButton = styled.button`
   width: 100%;
   border: 0;
   padding: 1rem;
@@ -38,7 +38,7 @@ export const BaseCountDownButton = styled.button`
     cursor: not-allowed;
   }
 `
-export const StartCountDownButton = styled(BaseCountDownButton)`
+export const StartCountdownButton = styled(BaseCountdownButton)`
   background: ${(props) => props.theme['green-500']};
 
   &:not(:disabled):hover {
@@ -46,7 +46,7 @@ export const StartCountDownButton = styled(BaseCountDownButton)`
   }
 `
 
-export const StopCountDownButton = styled(BaseCountDownButton)`
+export const StopCountdownButton = styled(BaseCountdownButton)`
   background: ${(props) => props.theme['red-500']};
 
   &:not(:disabled):hover {
