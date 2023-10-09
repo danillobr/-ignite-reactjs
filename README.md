@@ -35,4 +35,4 @@
  - [Ignite Dt Money](03-ignite-dt-money/)
 
 ### Projeto 4: Fundamentos do NextJS
- - [Ignite Shop](03-ignite-shop/)
+ - [Ignite Shop](04-ignite-shop/)
