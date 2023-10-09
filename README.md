@@ -30,3 +30,9 @@
 
 ### Projeto 2: Criando SPAs com ReactJS
  - [Ignite Timer](02-ignite-timer/)
+
+### Projeto 3: Consumo de API e performance no ReactJS
+ - [Ignite Dt Money](03-ignite-dt-money/)
+
+### Projeto 4: Fundamentos do NextJS
+ - [Ignite Shop](03-ignite-shop/)
