@@ -6,7 +6,7 @@ import { ArrowRight, Check } from 'phosphor-react'
 import { Container, Header } from '../styles'
 import { AuthError, ConnectBox, ConnectItem } from './styles'
 
-export default function Register() {
+export default function ConnectCalendar() {
   const session = useSession()
   const router = useRouter()
 
@@ -17,7 +17,9 @@ export default function Register() {
     await signIn('google')
   }
 
-  console.log(session)
+  async function handleNavigateToNextStep() {
+    await router.push('/register/time-intervals')
+  }
 
   return (
     <Container>
@@ -58,7 +60,11 @@ export default function Register() {
           </AuthError>
         )}
 
-        <Button type="submit" disabled={!isSignedId}>
+        <Button
+          onClick={handleNavigateToNextStep}
+          type="submit"
+          disabled={!isSignedId}
+        >
           Próximo passo
           <ArrowRight />
         </Button>
