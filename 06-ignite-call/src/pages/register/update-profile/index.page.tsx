@@ -7,14 +7,14 @@ import {
   Text,
   TextArea,
 } from '@ignite-ui/react'
-import { useRouter } from 'next/router'
-import { api } from '../../../lib/axios'
 import { GetServerSideProps } from 'next'
-import { getServerSession } from 'next-auth'
+import { unstable_getServerSession } from 'next-auth'
 import { useSession } from 'next-auth/react'
+import { useRouter } from 'next/router'
 import { ArrowRight } from 'phosphor-react'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
+import { api } from '../../../lib/axios'
 import { buildNextAuthOptions } from '../../api/auth/[...nextauth].api'
 import { Container, Header } from '../styles'
 import { FormAnnotation, ProfileBox } from './styles'
@@ -85,7 +85,7 @@ export default function UpdateProfile() {
 }
 
 export const getServerSideProps: GetServerSideProps = async ({ req, res }) => {
-  const session = await getServerSession(
+  const session = await unstable_getServerSession(
     req,
     res,
     buildNextAuthOptions(req, res),

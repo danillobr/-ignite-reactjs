@@ -34,10 +34,8 @@ export function PrismaAdapter(
         id: prismaUser.id,
         name: prismaUser.name,
         username: prismaUser.username,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         email: prismaUser.email!,
         emailVerified: null,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         avatar_url: prismaUser.avatar_url!,
       }
     },
@@ -57,10 +55,8 @@ export function PrismaAdapter(
         id: user.id,
         name: user.name,
         username: user.username,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         email: user.email!,
         emailVerified: null,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         avatar_url: user.avatar_url!,
       }
     },
@@ -79,10 +75,8 @@ export function PrismaAdapter(
         id: user.id,
         name: user.name,
         username: user.username,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         email: user.email!,
         emailVerified: null,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         avatar_url: user.avatar_url!,
       }
     },
@@ -109,10 +103,8 @@ export function PrismaAdapter(
         id: user.id,
         name: user.name,
         username: user.username,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         email: user.email!,
         emailVerified: null,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         avatar_url: user.avatar_url!,
       }
     },
@@ -120,7 +112,6 @@ export function PrismaAdapter(
     async updateUser(user) {
       const prismaUser = await prisma.user.update({
         where: {
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           id: user.id!,
         },
         data: {
@@ -134,10 +125,8 @@ export function PrismaAdapter(
         id: prismaUser.id,
         name: prismaUser.name,
         username: prismaUser.username,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         email: prismaUser.email!,
         emailVerified: null,
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
         avatar_url: prismaUser.avatar_url!,
       }
     },
@@ -202,10 +191,8 @@ export function PrismaAdapter(
           id: user.id,
           name: user.name,
           username: user.username,
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           email: user.email!,
           emailVerified: null,
-          // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
           avatar_url: user.avatar_url!,
         },
       }

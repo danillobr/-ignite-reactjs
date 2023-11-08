@@ -99,7 +99,6 @@ export default function TimeIntervals() {
 
   const intervals = watch('intervals')
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   async function handleSetTimeIntervals(data: any) {
     const { intervals } = data as TimeIntervalsFormOutput
 
@@ -166,7 +165,7 @@ export default function TimeIntervals() {
         </IntervalContainer>
 
         {errors.intervals && (
-          <FormError size="sm">{errors.intervals.root?.message}</FormError>
+          <FormError size="sm">{errors.intervals.message}</FormError>
         )}
 
         <Button type="submit" disabled={isSubmitting}>
