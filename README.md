@@ -39,3 +39,6 @@
 
 ### Projeto 5: Design System
  - [Design System](https://github.com/danillobr/05-design-system)
+
+### Projeto 6: Ignite Call
+ - [Ignite Call](https://github.com/danillobr/06-ignite-call)
